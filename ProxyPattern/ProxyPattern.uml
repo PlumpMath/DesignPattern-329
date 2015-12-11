@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ProxyPattern</OriginalElement>
+  <nodes>
+    <node x="25.849999999999994" y="272.0">ProxyPattern.ProxyImage</node>
+    <node x="62.849999999999994" y="442.0">ProxyPattern.ProxyPatternDemo</node>
+    <node x="95.85" y="0.0">ProxyPattern.Image</node>
+    <node x="0.0" y="102.0">ProxyPattern.RealImage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ProxyPattern.RealImage" target="ProxyPattern.Image">
+      <point x="0.0" y="-60.0" />
+      <point x="105.5" y="77.0" />
+      <point x="130.35" y="77.0" />
+      <point x="-34.5" y="26.0" />
+    </edge>
+    <edge source="ProxyPattern.ProxyImage" target="ProxyPattern.RealImage">
+      <point x="-81.0" y="-60.0" />
+      <point x="66.35" y="247.0" />
+      <point x="52.75" y="247.0" />
+      <point x="-52.75" y="60.0" />
+    </edge>
+    <edge source="ProxyPattern.ProxyPatternDemo" target="ProxyPattern.ProxyImage">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="ProxyPattern.ProxyImage" target="ProxyPattern.Image">
+      <point x="81.0" y="-60.0" />
+      <point x="228.35" y="247.0" />
+      <point x="221.5" y="247.0" />
+      <point x="221.5" y="77.0" />
+      <point x="199.35" y="77.0" />
+      <point x="34.5" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="134.5" y="247.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
