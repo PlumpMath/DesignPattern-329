@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>AdapterPattern.AdapterPatternDemo</OriginalElement>
+  <nodes>
+    <node x="0.0" y="124.0">AdapterPattern.VlcPlayer</node>
+    <node x="373.50000000000006" y="521.0">AdapterPattern.AdapterPatternDemo</node>
+    <node x="221.87962962962962" y="0.0">AdapterPattern.AdvancedMediaPlayer</node>
+    <node x="177.12962962962968" y="248.0">AdapterPattern.MediaAdapter</node>
+    <node x="215.0" y="124.0">AdapterPattern.Mp4Player</node>
+    <node x="431.0" y="135.0">AdapterPattern.MediaPlayer</node>
+    <node x="332.50000000000006" y="396.0">AdapterPattern.AudioPlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AdapterPattern.MediaAdapter" target="AdapterPattern.MediaPlayer">
+      <point x="137.24999999999994" y="-49.0" />
+      <point x="497.3796296296296" y="223.0" />
+      <point x="481.25" y="223.0" />
+      <point x="-50.25" y="26.0" />
+    </edge>
+    <edge source="AdapterPattern.MediaAdapter" target="AdapterPattern.VlcPlayer">
+      <point x="-137.25000000000006" y="-49.0" />
+      <point x="222.87962962962962" y="223.0" />
+      <point x="97.5" y="223.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="AdapterPattern.VlcPlayer" target="AdapterPattern.AdvancedMediaPlayer">
+      <point x="0.0" y="-37.0" />
+      <point x="97.5" y="99.0" />
+      <point x="254.37962962962962" y="99.0" />
+      <point x="-65.0" y="37.0" />
+    </edge>
+    <edge source="AdapterPattern.AdapterPatternDemo" target="AdapterPattern.AudioPlayer">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="AdapterPattern.AudioPlayer" target="AdapterPattern.MediaAdapter">
+      <point x="-83.66666666666669" y="-37.5" />
+      <point x="374.33333333333337" y="371.0" />
+      <point x="268.6296296296297" y="371.0" />
+      <point x="-91.5" y="49.0" />
+    </edge>
+    <edge source="AdapterPattern.AudioPlayer" target="AdapterPattern.MediaPlayer">
+      <point x="83.66666666666664" y="-37.5" />
+      <point x="541.6666666666667" y="371.0" />
+      <point x="581.75" y="371.0" />
+      <point x="50.25" y="26.0" />
+    </edge>
+    <edge source="AdapterPattern.Mp4Player" target="AdapterPattern.AdvancedMediaPlayer">
+      <point x="0.0" y="-37.0" />
+      <point x="312.5" y="99.0" />
+      <point x="319.3796296296296" y="99.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="AdapterPattern.MediaAdapter" target="AdapterPattern.AdvancedMediaPlayer">
+      <point x="45.74999999999994" y="-49.0" />
+      <point x="405.8796296296296" y="223.0" />
+      <point x="420.5" y="223.0" />
+      <point x="420.5" y="99.0" />
+      <point x="384.3796296296296" y="99.0" />
+      <point x="65.0" y="37.0" />
+    </edge>
+    <edge source="AdapterPattern.MediaAdapter" target="AdapterPattern.Mp4Player">
+      <point x="-45.75000000000006" y="-49.0" />
+      <point x="314.3796296296296" y="223.0" />
+      <point x="312.5" y="223.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9173693086003373" x="316.0" y="314.84191176470586" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

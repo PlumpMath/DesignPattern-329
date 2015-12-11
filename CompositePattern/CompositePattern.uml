@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CompositePattern</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">CompositePattern.Employee</node>
+    <node x="43.0" y="259.0">CompositePattern.CompositePatternDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CompositePattern.CompositePatternDemo" target="CompositePattern.Employee">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="134.5" y="155.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

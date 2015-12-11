@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>IteratorPattern.IteratorPatternDemo</OriginalElement>
+  <nodes>
+    <node x="170.0" y="124.0">IteratorPattern.NameRepository.NameIterarator</node>
+    <node x="0.0" y="146.5">IteratorPattern.Container</node>
+    <node x="151.0" y="0.0">IteratorPattern.Iterator</node>
+    <node x="123.0" y="396.0">IteratorPattern.IteratorPatternDemo</node>
+    <node x="125.5" y="271.0">IteratorPattern.NameRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="IteratorPattern.NameRepository.NameIterarator" target="IteratorPattern.NameRepository">
+      <point x="37.5" y="48.5" />
+      <point x="282.5" y="246.0" />
+      <point x="262.1666666666667" y="246.0" />
+      <point x="54.666666666666686" y="-37.5" />
+    </edge>
+    <edge source="IteratorPattern.NameRepository.NameIterarator" target="IteratorPattern.Iterator">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="IteratorPattern.NameRepository" target="IteratorPattern.NameRepository.NameIterarator">
+      <point x="0.0" y="-37.5" />
+      <point x="-37.5" y="48.5" />
+    </edge>
+    <edge source="IteratorPattern.IteratorPatternDemo" target="IteratorPattern.NameRepository">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="IteratorPattern.NameRepository" target="IteratorPattern.Container">
+      <point x="-54.66666666666666" y="-37.5" />
+      <point x="152.83333333333334" y="246.0" />
+      <point x="75.0" y="246.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="169.5" y="242.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

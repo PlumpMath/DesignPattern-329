@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>FactoryPattern.FactoryPatternDemo</OriginalElement>
+  <nodes>
+    <node x="143.0" y="102.0">FactoryPattern.Square</node>
+    <node x="120.00000000000001" y="306.0">FactoryPattern.FactoryPatternDemo</node>
+    <node x="0.0" y="102.0">FactoryPattern.Rectangle</node>
+    <node x="286.0" y="102.0">FactoryPattern.Circle</node>
+    <node x="106.00000000000001" y="204.0">FactoryPattern.ShapeFactory</node>
+    <node x="143.0" y="0.0">FactoryPattern.Shape</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FactoryPattern.Circle" target="FactoryPattern.Shape">
+      <point x="0.0" y="-26.0" />
+      <point x="347.5" y="77.0" />
+      <point x="245.5" y="77.0" />
+      <point x="41.0" y="26.0" />
+    </edge>
+    <edge source="FactoryPattern.Rectangle" target="FactoryPattern.Shape">
+      <point x="0.0" y="-26.0" />
+      <point x="61.5" y="77.0" />
+      <point x="163.5" y="77.0" />
+      <point x="-41.0" y="26.0" />
+    </edge>
+    <edge source="FactoryPattern.ShapeFactory" target="FactoryPattern.Square">
+      <point x="-1.4210854715202004E-14" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="FactoryPattern.Square" target="FactoryPattern.Shape">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="FactoryPattern.FactoryPatternDemo" target="FactoryPattern.ShapeFactory">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="FactoryPattern.ShapeFactory" target="FactoryPattern.Rectangle">
+      <point x="-65.66666666666669" y="-26.0" />
+      <point x="138.83333333333331" y="179.0" />
+      <point x="61.5" y="179.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="FactoryPattern.ShapeFactory" target="FactoryPattern.Circle">
+      <point x="65.66666666666669" y="-26.0" />
+      <point x="270.1666666666667" y="179.0" />
+      <point x="347.5" y="179.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="204.5" y="202.0" />
+  <SelectedNodes>
+    <node>FactoryPattern.ShapeFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
