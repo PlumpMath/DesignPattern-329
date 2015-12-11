@@ -32,6 +32,7 @@ Design Pattern Study
 
 ###MediatorPattern
 
+
 ###MementoPattern
 
 ###ObserverPattern
@@ -51,6 +52,8 @@ Design Pattern Study
 
 
 ###Reference
+[Design Pattern Tuitorial (Java)](http://www.tutorialspoint.com/design_pattern/index.htm)
+
 [Structural Design Patterns](https://practicingruby.com/articles/structural-design-patterns)
 
 [Creational Design Patterns](https://practicingruby.com/articles/creational-design-patterns)
