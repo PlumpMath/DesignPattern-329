@@ -1,7 +1,0 @@
-#ignore those directories
-.idea/
-out
-
-*.iml
-*.class
-*.xml
